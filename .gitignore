@@ -1,7 +1,21 @@
-# Byte-compiled / optimized / DLL files
+<<<<<<< HEAD
+=======
+*.pdf
+>>>>>>> 88dc3405be7a1069e267c7c5941e84b864346fa2
+# OS
+.DS_Store
+
+# Python
 __pycache__/
-*.py[codz]
-*$py.class
+*.py[cod]
+.venv/
+.env
+
+# Node
+node_modules/
+
+# IDE
+.vscode/
 
 # C extensions
 *.so
