@@ -11,5 +11,8 @@
     "checkpointer":{
         "type": "sqlite",
         "directory":"."
+    },
+    "http": {
+        "app":"./webapp.py:app"
     }
 }
