@@ -2,6 +2,7 @@
 import os
 from slack_sdk import WebClient
 from langchain.tools import tool
+
 from backend import dt_backend
 
 SLACK_TOKEN = os.getenv('SLACK_BOT_TOKEN')
